@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.bluetoothconnect"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.bluetoothconnect"
@@ -56,4 +56,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //Navigation
+    implementation(libs.androidx.hilt.navigation.compose)
+
+    //Blutooth
+
 }
